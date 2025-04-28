@@ -41,10 +41,10 @@ set(ASIO_REPOSITORY
     CACHE STRING "asio git repository url"
 )
 set(ASIO_TAG
-    "asio-1-31-0"
+    "asio-1-34-2"
     CACHE STRING "asio git tag"
 )
-option(ASIO_USE_CPM "Download Asio with CPM instead of FetchContent" ON)
+option(ASIO_USE_CPM "Download Asio with CPM instead of FetchContent" OFF)
 option(
   ASIO_CPM_FETCHCONTENT_COMPAT
   "Should asio be declared with FetchContent functions to be compatible. This doesn't not allow CPM cache to work."
